@@ -37,31 +37,3 @@
     padding: 0px 200px;
 }
 
-.section-about {
-    position: relative;
-    background-color: aliceblue;
-    width: 100%;
-    max-width: 1920px;
-    height: 100vh;
-    max-height: 1000px;
-}
-
-.section-about::before {
-    content: '';
-    height: 30px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    background: linear-gradient(to bottom, #1c05224f, transparent);
-    z-index: 5;
-}
-
-.section-about::after {
-    content: '';
-    height: 30px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background: linear-gradient(to top, #1c05224f, transparent);
-    z-index: 5;
-}
