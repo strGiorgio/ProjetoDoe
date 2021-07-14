@@ -48,14 +48,15 @@
     line-height: 37.32px;
     font-weight: 700;
     color: #4064DB;
-    margin: 40px auto;
+    margin: 0 auto;
+    margin-top: 40px;
     text-align: center;
 }
 
 .text-about {
     font: 1.5rem 'Scada', sans-serif;
     color: #7683A8;
-    margin: 0px 50px;
+    margin: 50px 50px;
 }   
 
 .link-about {
@@ -64,6 +65,6 @@
     text-decoration: none;
     text-align: right;
     position: absolute;
-    bottom: 18px;
+    bottom: 50px;
     right: 100px;
 }
