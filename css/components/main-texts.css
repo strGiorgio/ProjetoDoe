@@ -42,29 +42,3 @@
     font: 2.4rem "Roboto", sans-serif;
     color: #fff;
 }
-
-.title-about {
-    font: 2rem 'Scada', sans-serif;
-    line-height: 37.32px;
-    font-weight: 700;
-    color: #4064DB;
-    margin: 0 auto;
-    margin-top: 40px;
-    text-align: center;
-}
-
-.text-about {
-    font: 1.5rem 'Scada', sans-serif;
-    color: #7683A8;
-    margin: 50px 50px;
-}   
-
-.link-about {
-    font: 1.6rem 'Scada', sans-serif;
-    color: #4064DB;
-    text-decoration: none;
-    text-align: right;
-    position: absolute;
-    bottom: 50px;
-    right: 100px;
-}
