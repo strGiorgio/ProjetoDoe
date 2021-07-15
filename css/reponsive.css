@@ -1,4 +1,8 @@
 @media (max-width: 1279px) {
+    html {
+        font-size: 95%;
+    }
+
     body .section-numbersInfo {
         height: 800px;
     }
@@ -35,18 +39,5 @@
 
     body .main-header .container div:nth-of-type(2){
         margin-bottom: 20px;
-    }
-
-    body .section-about .wrapper-cardAbout {
-        display: flex;
-        flex-direction: column;
-    }
-
-    body .section-about .image-about {
-        width: 100%;
-    }
-
-    body .section-about .card-about {
-        width: 100%;
     }
 }
