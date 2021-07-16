@@ -30,6 +30,16 @@
     opacity: 50%;
 }
 
+.title-banner {
+    font: 10rem "Sriracha", cursive;
+    color: #8760FF;
+}
+
+.text-banner {
+    font: 30px "Scada", sans-serif;
+    color: #ededed;
+}
+
 .text-numbersInfo {
     font: 4rem "Roboto", sans-serif;
     font-weight: 600;
