@@ -21,6 +21,32 @@
     }
 }
 
+@media (max-width: 1189px) {
+    body .section-banner {
+        height: 150%;
+    }
+
+    body .section-banner .wrapper-banner {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        
+    }
+
+    .section-banner .wrapper-titleAndText {
+        align-self: center;
+    }
+
+    body .img-phone {
+        align-self: center;
+    }
+    
+    body .section-banner .circle-banner {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+
 @media (max-width: 767px) {
     html {
         font-size: 90%;
@@ -39,5 +65,20 @@
 
     body .main-header .container div:nth-of-type(2){
         margin-bottom: 20px;
+    }
+
+    body .title-banner {
+        text-align: center;
+    }
+
+    body .text-banner {
+        text-align: center;
+        
+    }
+}
+
+@media (max-width: 350px) {
+    body .img-phone {
+        width: 300px;
     }
 }
