@@ -24,7 +24,9 @@
     
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/reponsive.css">
+    <link rel="stylesheet" href="./css/components/toggle-items.css">
     <link rel="stylesheet" href="./css/components/main-header.css">
+    <link rel="stylesheet" href="./css/components/main-buttons.css">
     <link rel="stylesheet" href="./css/components/main-images.css">
     <link rel="stylesheet" href="./css/components/main-texts.css">
     <link rel="stylesheet" href="./css/components/main-sections.css">
@@ -36,9 +38,22 @@
             <div>
                 <p class="text-logo">Doe</p>
             </div>
-            <div>
-                <a class="text-login" href="">Login</a>
-                <a class="text-signIn" href="">Sign-in</a>
+
+            <div id="wrapper-loginSignIn">
+                <a class="text-login login-signIn" onclick="toggleMenus()" href="#">Login</a>
+                <a class="text-signIn login-signIn" onclick="toggleMenus()" href="#">Sign-in</a>
+            </div>
+
+            <div class="dropdown inactive">
+                <button class="button-account btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    strGiorgio
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a href="" class="text-dropdown dropdown-item disabled">Perfil</a></li>
+                    <li><a href="" class="text-dropdown dropdown-item">Settings</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li><a href="" class="text-dropdown dropdown-item">Loggout</a></li>
+                </ul>
             </div>
         </div>
     </header>
@@ -80,5 +95,7 @@
     </section>
 
     <section class="section-about"></section>
+
+    <script src="./scripts/toggleMenu.js"></script>
 </body>
 </html>
