@@ -28,3 +28,19 @@
     display: inline-block;
     margin: 0 25px;
 }
+
+.main-header .container .dropdown .dropdown-menu {
+    border-radius: 0;
+}
+
+.main-header .container .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #7683A8;
+}
+
+.main-header .container > div.inactive {
+    display: none;
+}
+
+.main-header .container .dropdown.inactive {
+    display: none;
+}
