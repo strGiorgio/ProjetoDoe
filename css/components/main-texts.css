@@ -30,13 +30,18 @@
     opacity: 50%;
 }
 
+.text-dropdown {
+    font: 1.3rem "Scada", sans-serif;
+    color: #7683A8;
+    padding-right: 100px;
+}
 .title-banner {
     font: 10rem "Sriracha", cursive;
     color: #8760FF;
 }
 
 .text-banner {
-    font: 30px "Scada", sans-serif;
+    font: 1.8rem "Scada", sans-serif;
     color: #ededed;
 }
 
