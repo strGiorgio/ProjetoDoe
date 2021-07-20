@@ -35,14 +35,34 @@
     color: #7683A8;
     padding-right: 100px;
 }
+
 .title-banner {
     font: 10rem "Sriracha", cursive;
     color: #8760FF;
+    transform: translateX(-250px);
+    animation: slideRight 1s;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+
+@keyframes slideRight {
+    to {
+        transform: translateX(0px);
+    }
 }
 
 .text-banner {
     font: 1.8rem "Scada", sans-serif;
     color: #ededed;
+    transform: translateX(200px);
+    animation: slideLeft 1s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes slideLeft {
+    to {
+        transform: translateX(0px);
+    }
 }
 
 .text-numbersInfo {
