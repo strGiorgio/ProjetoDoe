@@ -41,6 +41,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.section-banner .circle-banner:hover {
+    transform: scale(1.02);
+}
+
+.section-banner .circle-banner:hover > svg {
+    animation: slideDown .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideDown {
+    to {
+        transform: translateY(30px);
+    }
 }
 
 .section-numbersInfo {
