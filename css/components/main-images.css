@@ -1,3 +1,12 @@
 .img-phone {
    align-self: flex-end;
+   transform: translateY(150px);
+   animation: slideTop 1s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes slideTop {
+   to {
+      transform: translateY(0px);
+   }
 }
