@@ -1,0 +1,85 @@
+
+body {
+    overflow: hidden;
+}
+
+.loginSignIn-screen {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 10;
+    position: fixed;
+}
+
+.container {
+    width: 30em;
+    background-color: aliceblue;
+    padding: 40px
+}
+
+.legend-input {
+    display: inline;
+    font: 2em "Scada", sans-serif;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.legend-input.signIn {
+    font: 1.5em "Scada", sans-serif;
+}
+
+.legend-input.legend-input.signIn {
+    color: #a7a5a5;
+}
+
+.text-input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    font: 1.5 "Scada", sans-serif;
+    border: none;
+}
+
+.text-input.email {
+    margin-top: 20px;
+}
+
+.button-input.button {
+    background-color: #4064DB;
+    font: 1.2em "Scada", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.button-other-account {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font: 1.2em "Scada", sans-serif;
+    text-decoration: none;
+    margin: 20px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.button-other-account.facebook {
+    background-color: #5254ec;
+    color: #fff;
+}
+
+.button-other-account.facebook:hover {
+    color: rgb(192, 191, 191);
+}
+
+.button-other-account.google {
+    margin-bottom: none;
+    color: #ec5858;
+}
+
+.button-other-account.google:hover {
+    color: #ff0000;
+}
