@@ -66,12 +66,12 @@
 
     <section class="loginSignIn-screen">
         <form action="#" class="container">
-            <a class="legend-input login" href="#">Login</a>
-            <a class="legend-input signIn inactive" href="#">SignIn</a>
+            <a class="legend-input login" href="#">Logar</a>
+            <a class="legend-input signIn inactive" href="#">Cadastrar-se</a>
             <hr>
-            <input type="email" placeholder="Email" class="text-input email">
-            <input type="password" placeholder="Senha" class="text-input password">
-            <a href="#" type="button" class="button-input button">Logar</a>
+            <input type="email" placeholder="Email" class="text-input email" required autocomplete minlength="6" maxlength="32" title="Digite um email válido" pattern=".+@.+">
+            <input type="password" placeholder="Senha" class="text-input password" required autocomplete minlength="6" maxlength="12" title="Escolha uma senha de no minímo 6 caracteres e no máximo 12.">
+            <button href="#" type="submit" class="button-input button">Logar</button>
 
             <a class="button-other-account facebook" href="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook m-1" viewBox="0 0 16 16">
