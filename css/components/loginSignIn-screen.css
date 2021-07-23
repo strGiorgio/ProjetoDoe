@@ -7,15 +7,18 @@ body {
     width: 100%;
     max-width: 1920px;
     height: 100%;
-    background-color: #fff;
+    background: linear-gradient(240deg,#4064DB, #8499DF,#304CA6);
     z-index: 10;
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     width: 30em;
     background-color: aliceblue;
-    padding: 40px
+    padding: 40px;
 }
 
 .legend-input {
@@ -27,10 +30,11 @@ body {
 
 .legend-input.signIn {
     font: 1.5em "Scada", sans-serif;
+    color: #a7a5a5;
 }
 
-.legend-input.legend-input.signIn {
-    color: #a7a5a5;
+.legend-input.signIn:hover {
+    color: #4064DB;
 }
 
 .text-input {
@@ -52,13 +56,13 @@ body {
     color: #fff;
     padding: 10px 30px;
     border-radius: 20px;
+    border: none;
 }
 
 .button-other-account {
     display: block;
     width: 100%;
     padding: 10px;
-    border-radius: 20px;
     font: 1.2em "Scada", sans-serif;
     text-decoration: none;
     margin: 20px 0;
