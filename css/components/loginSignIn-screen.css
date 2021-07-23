@@ -3,7 +3,7 @@ body {
     overflow: hidden;
 }
 
-.loginSignIn-screen {
+.loginSignIn-screen.login {
     width: 100%;
     max-width: 1920px;
     height: 100%;
@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-.container {
+.containerForm {
     width: 30em;
     background-color: aliceblue;
     padding: 40px;
@@ -51,12 +51,17 @@ body {
 
 .button-input.button {
     background-color: #4064DB;
+    width: 100%;
     font: 1.2em "Scada", sans-serif;
     text-decoration: none;
     color: #fff;
     padding: 10px 30px;
     border-radius: 20px;
     border: none;
+}
+
+.button-input.button:hover {
+    transform: scale(1.02);
 }
 
 .button-other-account {
@@ -86,4 +91,37 @@ body {
 
 .button-other-account.google:hover {
     color: #ff0000;
+}
+
+
+/*SignIn screen*/
+.loginSignIn-screen.signIn {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    background: linear-gradient(240deg,#4064DB, #8499DF,#304CA6);
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginSignIn-screen.signIn .legend-input.login {
+    font: 1.5em "Scada", sans-serif;
+    color: #a7a5a5;
+}
+
+.loginSignIn-screen.signIn .legend-input.login:hover {
+    color: #4064DB;
+}
+
+.loginSignIn-screen.signIn .legend-input.signIn {
+    font: 2rem "Scada", sans-serif;
+    color: #4064DB;
+    display: inline;
+}
+
+.loginSignIn-screen.signIn .legend-input.signIn:hover {
+    color: #2e4eb8;
 }
