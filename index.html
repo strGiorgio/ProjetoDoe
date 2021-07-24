@@ -42,8 +42,8 @@
             </div>
 
             <div id="wrapper-loginSignIn">
-                <a class="text-login login-signIn" onclick="toggleMenus()" href="#">Login</a>
-                <a class="text-signIn login-signIn" onclick="toggleMenus()" href="#">Sign-in</a>
+                <a class="text-login login-signIn" onclick="OpenLogin()" href="#">Login</a>
+                <a class="text-signIn login-signIn" onclick="Open()" href="#">Sign-in</a>
             </div>
 
             <div class="dropdown inactive">
@@ -65,7 +65,7 @@
         </div>
     </header>
 
-    <section class="loginSignIn-screen">
+    <section class="loginSignIn-screen disabled">
         <!--LOGIN SCREEN-->
         <form action="#" class="containerForm login">
             <div class="wrapper-legend">
@@ -154,6 +154,7 @@
     <section id="s-about" class="section-about"></section>
 
     <script src="./scripts/toggleMenu.js"></script>
-    <script src="./scripts/switchLogin.js"></script>
+    <script src="./scripts/switchToLogin.js"></script>
+    <script src="./scripts/switchToSignIn.js"></script>
 </body>
 </html>
