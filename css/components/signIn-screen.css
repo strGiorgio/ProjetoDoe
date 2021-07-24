@@ -18,6 +18,10 @@
     color: #a7a5a5;
 }
 
+.containerForm.signIn .legend-input.login:hover {
+    color: #4064DB;
+}
+
 .containerForm.signIn .legend-input.signIn {
     font: 2em "Scada", sans-serif;
     text-decoration: none;
