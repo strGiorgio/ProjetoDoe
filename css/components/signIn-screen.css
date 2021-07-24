@@ -1,0 +1,81 @@
+.containerForm.signIn {
+    display: none;
+    width: 30em;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+.containerForm.signIn .wrapper-legend {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.containerForm.signIn .legend-input.login {
+    display: inline;
+    font: 1.5em "Scada", sans-serif;
+    text-decoration: none;
+    color: #a7a5a5;
+}
+
+.containerForm.signIn .legend-input.signIn {
+    font: 2em "Scada", sans-serif;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.containerForm.signIn .text-input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    font: 1.5 "Scada", sans-serif;
+    border: none;
+}
+
+.containerForm.signIn .text-input.firstName {
+    margin-top: 20px;
+}
+
+.containerForm.signIn .button-input.button {
+    background-color: #4064DB;
+    width: 100%;
+    font: 1.2em "Scada", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.containerForm.signIn .button-input.button:hover {
+    transform: scale(1.02);
+}
+
+.containerForm.signIn .button-other-account {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font: 1.2em "Scada", sans-serif;
+    text-decoration: none;
+    margin: 20px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.containerForm.signIn .button-other-account.facebook {
+    background-color: #5254ec;
+    color: #fff;
+}
+
+.containerForm.signIn .button-other-account.facebook:hover {
+    color: rgb(192, 191, 191);
+}
+
+.containerForm.signIn .button-other-account.google {
+    margin-bottom: none;
+    color: #ec5858;
+}
+
+.containerForm.signIn .button-other-account.google:hover {
+    color: #ff0000;
+}
