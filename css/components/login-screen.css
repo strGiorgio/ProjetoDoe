@@ -1,6 +1,5 @@
 .loginSignIn-screen {
     width: 100%;
-    max-width: 1920px;
     height: 100%;
     background: linear-gradient(240deg,#4064DB, #8499DF,#304CA6);
     z-index: 10;
