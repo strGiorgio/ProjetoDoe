@@ -17,6 +17,15 @@
     width: 30em;
     background-color: aliceblue;
     padding: 40px;
+    transform: translateX(-300px);
+    animation: slideToRight 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideToRight {
+    to {
+        transform: translateX(0);
+    }
 }
 
 .containerForm.login .legend-input {
