@@ -77,8 +77,19 @@
     }
 }
 
+@media (max-width: 420px) {
+    body #dropdownMenuButton1 {
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-width: 350px) {
     body .img-phone {
         width: 300px;
+    }
+
+    body .containerForm {
+        width: 100%;
+        height: 100%;
     }
 }
