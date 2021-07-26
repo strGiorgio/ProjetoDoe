@@ -3,6 +3,15 @@
     width: 30em;
     background-color: aliceblue;
     padding: 40px;
+    transform: translateX(300px);
+    animation: slideToLeft 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideToLeft {
+    to {
+        transform: translateX(0);
+    }
 }
 
 .containerForm.signIn .wrapper-legend {
