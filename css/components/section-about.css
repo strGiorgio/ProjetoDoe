@@ -16,6 +16,10 @@
     border-radius: 10px;
 }
 
+.img-about {
+    height: 100%;
+}
+
 .wrapper-titleAndText-about {
     width: 50%;
     height: 100%;
