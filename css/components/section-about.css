@@ -7,21 +7,7 @@
     max-height: 1000px;
 }
 
-.wrapper-about {
-    background-color: #fff;
-    width: 80%;
-    min-height: 80%;
-    display: flex;
-    box-shadow: 10px 10px 10px #d7d7d7;
-    border-radius: 10px;
-}
-
 .img-about {
-    height: 100%;
-}
-
-.wrapper-titleAndText-about {
-    width: 50%;
     height: 100%;
 }
 
