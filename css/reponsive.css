@@ -75,6 +75,12 @@
         text-align: center;
         
     }
+
+    body .section-about {
+        padding: 50px 0;
+        max-height: none;
+        height: auto;
+    }
 }
 
 @media (max-width: 420px) {
