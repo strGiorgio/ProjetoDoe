@@ -2,50 +2,18 @@
     background-color: #4064DB;
     width: 100%;
     max-width: 1920px;
+    max-height: 720px;
     padding: 150px 0;
 }
 
 .section-slide-project .wrapper-slides {
+    width: 80%;
     height: 500px;
-    width: 1000px;
+    box-shadow: 10px 10px 10px #0004;
 }
 
-.section-slide-project .img-slide{
+.section-slide-project .wrapper-slides .img-slide{
     width: 100%;
-    height: 100%;
-}
-
-.section-slide-project .btn-slide {
-    background-color: #fff4;
-    width: 90px;
-    height: 160px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.section-slide-project .btn-slide.btn-previous::before {
-    content: "";
-    width: 50px;
-    height: 50px;
-    border-top: 4px solid #fff;
-    border-left: 4px solid #fff;
-    position: absolute;
-    transform: rotate(-45deg);
+    height: 500px;
     
-}
-
-.section-slide-project .btn-slide.btn-next::before {
-    content: "";
-    width: 50px;
-    height: 50px;
-    border-top: 4px solid #fff;
-    border-left: 4px solid #fff;
-    position: absolute;
-    transform: rotate(135deg);
-}
-
-.section-slide-project .btn-slide:hover {
-    background-color: #fff6;
 }
