@@ -44,3 +44,41 @@
 .main-header .container .dropdown.inactive {
     display: none;
 }
+
+.text-logo {
+    font: 3.8rem 'Sriracha', cursive;;
+    color: #7683A8;
+    cursor: pointer;
+}
+
+.text-login {
+    font: 2rem 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #7683A8;
+    margin-right: 25px;
+}
+
+.text-login:hover {
+    opacity: 50%;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.text-signIn {
+    font: 2rem 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 35px;
+    background-color: #4064DB;
+    border-radius: 29px;
+}
+
+.text-signIn:hover {
+    opacity: 50%;
+}
+
+.text-dropdown {
+    font: 1.3rem "Scada", sans-serif;
+    color: #7683A8;
+    padding-right: 100px;
+}
