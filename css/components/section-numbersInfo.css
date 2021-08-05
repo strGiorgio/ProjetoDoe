@@ -1,0 +1,32 @@
+.section-numbersInfo {
+    background-color: #4064DB;
+    width: 100%;
+    max-width: 1920px;
+    height: 372px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-numbersInfo .wrapper-numbersInfo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-numbersInfo .wrapper-numbersInfo > div:nth-of-type(2) {
+    padding: 0px 200px;
+}
+
+.text-numbersInfo {
+    font: 4rem "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 4.7rem; 
+    color: #fff;
+    text-align: center;
+}
+
+.text-wordsInfo {
+    font: 2.4rem "Roboto", sans-serif;
+    color: #fff;
+}
+
