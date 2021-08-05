@@ -1,0 +1,104 @@
+.section-banner {
+    background-color: #5128E2;
+    width: 100%;
+    height: calc(100vh - 100px);
+    max-width: 1920px;
+    max-height: 1080px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.section-banner::after {
+    content: '';
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, #1c05224f, transparent);
+    z-index: 5;
+}
+
+.section-banner .wrapper-banner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.section-banner .wrapper-titleAndText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.section-banner .circle-banner {
+    background-color: #8760FF;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.section-banner .circle-banner:hover {
+    transform: scale(1.02);
+}
+
+.section-banner .circle-banner:hover > svg {
+    animation: slideDown .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideDown {
+    to {
+        transform: translateY(30px);
+    }
+}
+
+.section-banner .img-phone {
+    align-self: flex-end;
+    transform: translateY(150px);
+    animation: slideTop 1s;
+    animation-fill-mode: forwards;
+ }
+ 
+ @keyframes slideTop {
+    to {
+       transform: translateY(0px);
+    }
+ }
+
+ .title-banner {
+    font: 10rem "Sriracha", cursive;
+    color: #8760FF;
+    transform: translateX(-250px);
+    animation: slideRight 1s;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+
+@keyframes slideRight {
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.text-banner {
+    font: 1.8rem "Scada", sans-serif;
+    color: #ededed;
+    transform: translateX(200px);
+    animation: slideLeft 1s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes slideLeft {
+    to {
+        transform: translateX(0px);
+    }
+}
