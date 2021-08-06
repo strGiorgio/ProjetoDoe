@@ -82,3 +82,12 @@
     color: #7683A8;
     padding-right: 100px;
 }
+
+.button-account {
+    font: 2rem "Scada", sans-serif;
+    color: #7683A8;
+}
+
+.button-account:hover {
+    color: #4064DB;
+}
