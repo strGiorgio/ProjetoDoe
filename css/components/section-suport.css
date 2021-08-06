@@ -1,0 +1,54 @@
+.section-suport {
+    background-color: #4064DB;
+    width: 100%;
+    max-width: 1920px;
+    padding-bottom: 150px;
+}
+
+.section-suport .wrapper-cards-support {
+    display: flex;  
+    width: 100%;
+    max-height: 500px;
+}
+
+.section-suport .card-suport{
+    width: 100%;
+    background-color: red;
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-suport .card-suport h2 {
+    font: 3rem "Scada", sans-serif;
+    color: #EDEDED;
+}
+
+.section-suport .card-suport p {
+    font: 1.5rem "Scada", sans-serif;
+    color: #EDEDED;
+    margin: 60px 0;
+}
+
+.section-suport .card-suport a {
+    text-decoration: none;
+    font: 2rem "Scada", sans-serif;
+    color: #EDEDED;
+    text-align: end;
+    transition: .3s;
+}
+
+.section-suport .card-suport a:hover {
+    opacity: 50%;
+}
+
+.card-suport.bg-blue {
+    background-color: #2A53DB;
+}
+
+.card-suport.bg-lightBlue {
+    background-color: #6388FF;
+}
+
+
