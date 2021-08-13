@@ -82,3 +82,35 @@
     border-radius: 20px;
 }
 
+
+.main-footer .nav-footer ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main-footer .nav-footer ul li{
+    margin-right: 30px;
+    list-style: none;
+    position: relative;
+}
+
+.main-footer .nav-footer ul li a {
+    font: 1.3rem "Roboto", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+}
+
+.main-footer .nav-footer ul li::after {
+    content: '';
+    width: 2px;
+    height: 25px;
+    background-color: #ededed;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.main-footer .nav-footer ul li:last-child::after {
+    display: none;
+}
+
