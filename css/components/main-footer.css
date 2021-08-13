@@ -80,8 +80,8 @@
     color: #959595;
     border: none;
     border-radius: 20px;
+    float: right;   
 }
-
 
 .main-footer .nav-footer ul {
     display: flex;
