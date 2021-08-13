@@ -38,7 +38,7 @@
     }
 
     body .img-phone {
-        align-self: center;
+        margin: auto;
     }
     
     body .section-banner .circle-banner {
