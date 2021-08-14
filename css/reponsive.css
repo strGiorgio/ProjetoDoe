@@ -59,6 +59,29 @@
         max-height: none;
     }
 
+    body .main-footer {
+        height: 1200px;
+    }
+
+    body .main-footer .wrapper-footer-infos {
+        flex-direction: column;
+        align-items: center ;
+    }
+
+    body .main-footer .support-contact{
+        margin: none;
+        text-align: center;
+    }
+
+    body .main-footer .support-contact p:nth-of-type(3) {
+        margin: 100px 0px 20px 0px;
+    }
+
+    body .main-footer .wrapper-icons-sociais {
+        justify-content: space-evenly;
+        width: 100%;
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -104,9 +127,27 @@
     }
 }
 
+@media (max-width: 489px) {
+    body .main-footer .form-footer {
+        width: 90%;
+    }
+
+    body .main-footer .nav-footer ul li a {
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 420px) {
     body #dropdownMenuButton1 {
         font-size: 1.5rem;
+    }
+
+    body .main-footer .nav-footer ul li {
+        margin-right: 25px;
+    }
+
+    body .main-footer .nav-footer ul li a {
+        font-size: 70%;
     }
 }
 
