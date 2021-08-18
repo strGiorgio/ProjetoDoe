@@ -67,7 +67,9 @@
     height: 190px;
     margin-bottom: 40px;
     font: 1.3rem "Roboto", sans-serif;
+    resize: none;
 }
+
 
 .main-footer .form-footer .input-button {
     padding: 7px 25px;
@@ -77,6 +79,10 @@
     border: none;
     border-radius: 20px;
     float: right;   
+}
+
+.main-footer .form-footer .input-button:hover {
+    transform: scale(1.02);
 }
 
 .main-footer .nav-footer ul {
