@@ -265,12 +265,12 @@
           </div>
         </div>
 
-        <div class="form-footer">
-          <input class="input-name" type="text" placeholder="Nome*">
-          <input class="input-email" type="email" placeholder="Email*">
-          <textarea class="input-msg" name="" id="" cols="30" rows="10" placeholder="Escreva sua mensagem..."></textarea>
-          <button class="input-button" type="submit">SUBMIT</button>
-        </div>
+        <form class="form-footer">
+          <input class="input-name" type="text" placeholder="Nome*" required minlength="2" maxlength="24" title="Insira seu nome. Ele deve possuir mais de 2 caracteres e até 24 caracteres">
+          <input class="input-email" type="email" placeholder="Email*" required minlength="4" maxlength="36" title="Insira um email válido. Ele deve possuir mais de 4 caracteres e até 36 caracteres">
+          <textarea class="input-msg" name="" id="" cols="30" rows="10" placeholder="Escreva sua mensagem..." required minlength="2" maxlength="256" title="Escreva uma mensagem"></textarea>
+          <button class="input-button" href="#" type="submit">ENVIAR</button>
+        </form>
       </div>
 
     <nav class="nav-footer">
@@ -280,7 +280,7 @@
         <li><a href="">Get Involved</a></li>
         <li><a href="">Contact</a></li>
         <li><a href="FAQs.html">FAQs</a></li>
-      </ul>
+      </ul>  
     </nav>
 
     <p class="copy-text">strGiorgio © 2021</p>
