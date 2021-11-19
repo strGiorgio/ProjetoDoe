@@ -20,3 +20,14 @@ function submit() {
     sectionLogin_2.classList.add('disabled')
     document.body.style.overflow = "initial";
 };
+
+
+window.addEventListener('keydown', function(event) {
+    const isEscKey = event.key == 'Escape';
+
+    if (isEscKey) {
+        sectionSignIn_2.classList.add('disabled')
+        sectionLogin_2.classList.add('disabled')
+        document.body.style.overflow = "initial";
+    }
+})
